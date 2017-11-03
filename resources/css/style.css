@@ -1,0 +1,38 @@
+html {
+  font-size: 18pt;
+}
+
+body {
+  font-family: 'Exo', sans-serif;
+}
+
+.uppercase {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.header {
+  height: 2.82rem;
+  width: 960px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  border: 1pt solid magenta;
+}
+
+.logo {
+  height: 1.5rem;
+  padding-left: 0.5rem;
+  padding-right: 1rem;
+}
+
+.logotype {
+  color: white;
+  padding: 0.66rem 0rem;
+}
