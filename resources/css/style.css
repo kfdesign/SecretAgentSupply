@@ -10,8 +10,7 @@ body {
 
 h1 {
   font-size: 2rem;
-  /* font-weight: bold; */
-  font-weight: lighter;
+  font-weight: 300;
   line-height: 125%;
   color: white;
   padding-top: 0.5rem;
@@ -19,8 +18,8 @@ h1 {
 
 h4 {
   font-size: 1rem;
-  font-weight: bold;
-  color: white;
+  font-weight: 300;
+  color: firebrick;
 }
 
 .uppercase {
@@ -43,11 +42,9 @@ h4 {
 
 .header {
   width: 960px;
-  /* height: 2.82rem; */
   background-color: black;
   display: flex;
   align-items: center;
-  /* border: 1pt solid magenta; */
 }
 
 .logo {
@@ -57,7 +54,7 @@ h4 {
 }
 
 .logotype {
-  color: white;
+  color: DarkGrey;
   padding-top: 0.66rem;
   padding-bottom: 0.66rem;
 }
@@ -71,46 +68,34 @@ h4 {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  /* border: 1pt solid yellow; */
 }
 
 .banner {
   width: 960px;
-  /* display: flex; */
-  /* justify-content: flex-start; */
-  /* border: 1pt solid magenta; */
 }
 
 .arrival {
-  /* position: relative; */
   margin-top: 9rem;
   padding: 2rem 3rem;
   background-color: black;
   width: 20rem;
-  /* border: 1pt solid cyan; */
-  /* height: 10rem; */
 }
 
 .wrap-nav {
   width: 100%;
-  /* display: flex; */
-  /* justify-content: center; */
-  background-color: firebrick;
+  background-color: darkred;
 }
 
 .main-nav {
   width: 960px;
-  /* height: 2.25rem; */
   margin-left: auto;
   margin-right: auto;
   display: flex;
   justify-content: space-between;
-  /* align-items: center; */
-  background-color: firebrick;
+  background-color: darkred;
 }
 
 .menu {
-  /* display: inline-block; */
   color: white;
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
@@ -129,7 +114,6 @@ h4 {
   justify-content: space-between;
   margin-top: 3rem;
   margin-bottom: 3rem;
-  /* TEMP: see if this works */
   flex-wrap: wrap;
 }
 
@@ -169,17 +153,9 @@ h4 {
 .contact {
   display: flex;
   flex-wrap: wrap;
-  /* justify-content: center; */
   align-items: center;
-  /* align-content: space-between; */
   width: 35%;
-  /* background-color: black; */
-  /* color: white; */
-  /* text-align: left; */
   margin-top: 3rem;
-  /* left: 2rem; */
-  /* padding-top: 1rem; */
-  /* padding-bottom: 1rem; */
 }
 
 .contact-info {
@@ -192,10 +168,6 @@ h4 {
 }
 
 .contact-name {
-  /* width: 100%; */
-  /* background-color: black; */
-  /* color: white; */
-  /* text-align: center; */
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
@@ -216,6 +188,7 @@ h4 {
 }
 
 .copyright {
+  font-size: 0.9rem;
   color: white;
   text-align: left;
   margin-top: auto;
