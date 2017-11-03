@@ -10,7 +10,8 @@ body {
 
 h1 {
   font-size: 2rem;
-  font-weight: bold;
+  /* font-weight: bold; */
+  font-weight: lighter;
   line-height: 125%;
   color: white;
   padding-top: 0.5rem;
@@ -37,7 +38,7 @@ h4 {
   width: 100%;
   display: flex;
   justify-content: center;
-  background-color: blue;
+  background-color: black;
 }
 
 .header {
@@ -70,14 +71,14 @@ h4 {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  border: 1pt solid yellow;
+  /* border: 1pt solid yellow; */
 }
 
 .banner {
   width: 960px;
   /* display: flex; */
   /* justify-content: flex-start; */
-  border: 1pt solid magenta;
+  /* border: 1pt solid magenta; */
 }
 
 .arrival {
@@ -86,7 +87,7 @@ h4 {
   padding: 2rem 3rem;
   background-color: black;
   width: 20rem;
-  border: 1pt solid cyan;
+  /* border: 1pt solid cyan; */
   /* height: 10rem; */
 }
 
@@ -94,7 +95,7 @@ h4 {
   width: 100%;
   /* display: flex; */
   /* justify-content: center; */
-  background-color: blue;
+  background-color: firebrick;
 }
 
 .main-nav {
@@ -119,7 +120,7 @@ h4 {
   width: 100%;
   display: flex;
   justify-content: center;
-  background-color: yellow;
+  background-color: white;
 }
 
 .products {
@@ -128,23 +129,78 @@ h4 {
   justify-content: space-between;
   margin-top: 3rem;
   margin-bottom: 3rem;
+  /* TEMP: see if this works */
+  flex-wrap: wrap;
 }
 
-.product {
+.item {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  align-content: space-between;
   width: 30%;
   padding-top: 2rem;
-  padding-bottom: 2rem;
+  background-color: white;
   border: 4px solid black;
 }
 
 .item-photo {
   height: 9rem;
+  padding-bottom: 2rem;
 }
 
 .glasses {
   width: 9rem;
+  height: auto;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.item-name {
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.contact-info {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+  align-items: center;
+  /* align-content: space-between; */
+  width: 35%;
+  /* background-color: black; */
+  /* color: white; */
+  /* text-align: left; */
+  margin-top: 3rem;
+  left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.contact {
+  /* width: 35%; */
+  /* background-color: black; */
+  color: white;
+  text-align: center;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.black {
+  color: red;
+}
+
+.contact-name {
+  /* width: 100%; */
+  /* background-color: black; */
+  /* color: white; */
+  /* text-align: center; */
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
