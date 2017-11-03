@@ -166,7 +166,7 @@ h4 {
   padding-bottom: 0.5rem;
 }
 
-.contact-info {
+.contact {
   display: flex;
   flex-wrap: wrap;
   /* justify-content: center; */
@@ -177,23 +177,18 @@ h4 {
   /* color: white; */
   /* text-align: left; */
   margin-top: 3rem;
-  left: 2rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  /* left: 2rem; */
+  /* padding-top: 1rem; */
+  /* padding-bottom: 1rem; */
 }
 
-.contact {
-  /* width: 35%; */
-  /* background-color: black; */
+.contact-info {
+  width: 100%;
+  background-color: black;
   color: white;
-  text-align: center;
   padding-left: 2rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
-}
-
-.black {
-  color: red;
 }
 
 .contact-name {
@@ -203,4 +198,26 @@ h4 {
   /* text-align: center; */
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+}
+
+.wrap-footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+
+.footer {
+  display: flex;
+  align-content: center;
+  height: 5rem;
+  width: 960px;
+  background-color: black;
+}
+
+.copyright {
+  color: white;
+  text-align: left;
+  margin-top: auto;
+  margin-bottom: auto;
 }
