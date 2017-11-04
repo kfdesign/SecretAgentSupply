@@ -93,6 +93,21 @@ h4 {
   display: flex;
   justify-content: space-between;
   background-color: darkred;
+  border: 1pt solid cyan;
+}
+
+.menu-items {
+  color: white;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+/* IS THERE AN OTHER WAY TO DO THIS? CREATE AN INSTANCE OF A CSS RULE WITH JUST ONE DIFFERENT SETTING? WITHOUT NEEDING TO COPY EVERYTHING? */
+.menu-items1024 {
+  color: white;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  display: none;
 }
 
 .menu {
@@ -118,6 +133,19 @@ h4 {
 }
 
 .item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: space-between;
+  width: 30%;
+  padding-top: 2rem;
+  background-color: white;
+  border: 4px solid black;
+}
+
+/* IS THERE AN OTHER WAY TO DO THIS? HAVE AN IDENTICAL CSS RULE BUT WITH A DIFFERENT NAME — WITHOUT HAVING TO RE-COPY ALL THE DETAILS? */
+.sunglasses {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -193,4 +221,30 @@ h4 {
   text-align: left;
   margin-top: auto;
   margin-bottom: auto;
+}
+
+@media only screen and (max-width: 1024px) {
+  /* ruleset for screens 1024px + smaller */
+  .logo {
+    height: 1.75rem;
+  }
+  .logotype {
+    font-size: 1.25rem;
+  }
+  .menu-items {
+    display: none;
+  }
+  .menu-items1024 {
+    display: inherit;
+  }
+  .main-nav {
+    width: auto;
+    justify-content: center;
+}
+  .sunglasses {
+    display: none;
+  }
+  .item {
+    width: 47%;
+  }
 }
