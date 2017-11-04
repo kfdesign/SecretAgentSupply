@@ -19,7 +19,7 @@ h1 {
 h4 {
   font-size: 1rem;
   font-weight: 300;
-  color: firebrick;
+  color: red;
 }
 
 .uppercase {
@@ -93,7 +93,6 @@ h4 {
   display: flex;
   justify-content: space-between;
   background-color: darkred;
-  border: 1pt solid cyan;
 }
 
 .menu-items {
@@ -157,6 +156,18 @@ h4 {
   border: 4px solid black;
 }
 
+.watch {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: space-between;
+  width: 30%;
+  padding-top: 2rem;
+  background-color: white;
+  border: 4px solid black;
+}
+
 .item-photo {
   height: 9rem;
   padding-bottom: 2rem;
@@ -209,7 +220,8 @@ h4 {
 
 .footer {
   display: flex;
-  align-content: center;
+  /* align-content: center; */
+  align-items: center;
   height: 5rem;
   width: 960px;
   background-color: black;
@@ -228,23 +240,93 @@ h4 {
   .logo {
     height: 1.75rem;
   }
+
   .logotype {
     font-size: 1.25rem;
   }
+
   .menu-items {
     display: none;
   }
+
   .menu-items1024 {
     display: inherit;
   }
+
   .main-nav {
     width: auto;
     justify-content: center;
-}
+  }
+
   .sunglasses {
     display: none;
   }
-  .item {
+
+  .item, .watch {
     width: 47%;
   }
+
+}
+
+@media only screen and (max-width: 470px) {
+  /* ruleset for screens 470px + smaller */
+  body {
+    letter-spacing: 0.5px;
+  }
+
+  h1 {
+    font-size: 1rem;
+    padding-top: 0.25rem;
+  }
+
+  h4 {
+    font-size: 0.77rem;
+  }
+
+  .wrap-banner {
+    height: 15rem;
+  }
+
+  .banner {
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .arrival {
+    margin-top: 0;
+    padding: 1rem 2rem;
+    background-color: black;
+    width: 100%;
+  }
+
+  .watch {
+    display: none;
+  }
+
+  .products {
+    width: auto;
+    justify-content: center;
+  }
+
+  .item {
+    width: 90%;
+    margin-bottom: 1.5rem;
+  }
+
+  .contact {
+    width: 90%;
+    margin-top: 0.5rem;
+  }
+
+  .footer {
+    justify-content: center;
+    width: auto;
+  }
+
+  .copyright {
+    font-size: 0.75rem;
+    text-align: center;
+  }
+
 }
